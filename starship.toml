@@ -1,0 +1,16 @@
+
+"$schema" = 'https://starship.rs/config-schema.json'
+
+[status]
+format = '[$symbol \($status\)]($style) '
+disabled = false
+
+[time]
+disabled = false
+
+[cmd_duration]
+min_time = 500
+show_milliseconds = true
+
+[memory_usage]
+disabled = false
